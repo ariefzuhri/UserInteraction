@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- showAsAction:
+    - always = header
+    - never = dropdown
+    - ifRoom = header, dropdown jika tidak cukup
+    - collapseActionView = drowdown
+    -->
+
+    <item
+        android:id="@+id/menu_add"
+        android:title="@string/add"
+        android:icon="@drawable/ic_outline_add_circle_24"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_update"
+        android:title="@string/update"
+        android:orderInCategory="20"/>
+
+    <item
+        android:id="@+id/menu_delete"
+        android:title="@string/delete"
+        android:orderInCategory="10" />
+</menu>

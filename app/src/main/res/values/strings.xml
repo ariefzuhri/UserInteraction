@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">UserInteraction</string>
+    <string name="masukkan_nomor_telepon">Masukkan nomor telepon</string>
+    <string name="show">Show</string>
+    <string name="pilihan_1">Pilihan 1</string>
+    <string name="pilihan_2">Pilihan 2</string>
+    <string name="pilihan_3">Pilihan 3</string>
+    <string name="alert">Alert</string>
+    <string name="add">Add</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+
+    <string-array name="labels">
+        <item>Home</item>
+        <item>Work</item>
+        <item>School</item>
+        <item>Mobile</item>
+        <item>Other</item>
+    </string-array>
+</resources>
